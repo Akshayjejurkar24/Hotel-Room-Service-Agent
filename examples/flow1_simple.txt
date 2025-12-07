@@ -1,0 +1,65 @@
+
+(venv) D:\Agent_ass>python main.py
+database connected  Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'Hotel_data')
+Hotel Room Service Agent Started
+
+You: hi
+
+Assistant: Welcome! Please tell me your room number to begin. 
+
+You: 155
+
+Assistant: Invalid room number. Please enter a room number between 100 and 810. 
+
+You: 101
+
+Assistant: Thank you. What would you like to order today? 
+
+You: menu
+
+Assistant: Here is the menu:
+
+• Margherita Pizza — $14.99
+• Pepperoni Pizza — $16.99
+• Grilled Salmon — $26.99
+• Ribeye Steak — $38.0
+• Chicken Tikka Masala — $22.99
+• Vegan Thai Green Curry — $19.99
+• Spicy Arrabbiata Pasta — $17.99
+• Paneer Butter Masala — $20.99
+• Caesar Salad — $11.99
+• Caprese Salad — $12.99
+• Shrimp Cocktail — $16.99
+• Vegan Buddha Bowl — $15.99
+• Chocolate Lava Cake — $9.99
+• Tiramisu — $8.99
+• Fresh Fruit Platter — $12.99
+• Club Sandwich — $18.99
+• Cheese & Charcuterie Board — $24.99
+• Smoked Salmon Bagel — $17.99
+• Coca-Cola — $4.5
+• Still Water 1L — $5.0
+• Fresh Orange Juice — $7.99
+• Red Bull — $6.99
+• Garlic Naan — $4.99
+• French Fries — $6.99
+• Truffle Fries — $9.99 
+
+You: 1 Truffle Fries
+
+Assistant: You ordered:
+• Truffle Fries (1)
+Total: $9.99
+
+Shall I confirm this order? (yes / no)
+
+You: yes
+
+Assistant: Order confirmed! It will arrive in about 40 -55 minutes.
+Thank you — enjoy your meal!
+
+You: o thank you
+
+Assistant: You are very welcome! Have a wonderful day. 
+
+You:
